@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="functions.js"></script>
+
+    
+    <!-- <link href="login.html" rel="stylesheet" type="text/html">  -->
+    <title>MyProject</title>
+</head>
+<body>
+    <header>
+    <div>
+        <ul class="header">
+          <div class="leftAlign">
+            <nav>
+            <a href="index.html"><img src="images/logo.png" /></a>
+            </nav>
+          </div>
+            <li><a class="active" href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="Contact/contact.html">Contact</a></li>
+            <li><a href="Prices/price.html">Prices</a></li>
+            <!-- search button -->
+            <li>
+            <!-- Load icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- The form -->
+              <form class="example" action="action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </li>
+        </ul>
+
+        <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
+
+
+
+    </div>
+    </header>
+    
+    
+    <!-- <div >
+        <h1><p class="hotelName">Hotel Eneron</p></h1>
+    </div> -->
+   
+    <!-- <div class="w3-content w3-display-container" > -->
+      <div class="imageAdjust">
+        <img class="mySlides" src="images/hotel1.png">
+        <img class="mySlides" src="images/hotel2.png">
+        <img class="mySlides" src="images/hotel3.png">
+        <img class="mySlides" src="images/hotel4.png">
+        <div class="w3-center w3-display-bottommiddle">
+          <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+          <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
+        </div>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-white", "");
+          }
+          x[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " w3-white";
+        }
+        </script>
+      
+   
+      <!-- <div class="w3-content w3-section" style="max-width:500px">
+        <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
+      
+        <img class="mySlides w3-animate-fading" src="images/logo.png" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/logoOfBulgaria.png" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="images/Mylogo.png" style="width:100%">
+      </div> -->
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 7000);    
+      }
+      </script>
+
+      <div class="hotelRewards">
+        <div class="hotelBorder1">
+          <div class="punch-card">
+            <div class="night-icons">
+              <ol>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+                <a class="night-icon empty"></a>
+               
+              </ol>
+            </div>
+            
+            <div class="night-summary">
+              <div class="summary">
+                <span class="moon">
+                  <!-- decimal unicode for  moon -->
+                  <!-- &#9789; -->
+                </span>
+              </div>
+
+            </div>
+
+
+            <div class="cont-right">
+              <div class="message-box-cont" tabindex="0">
+                <div class="message-box">
+                  <div class="messages">
+                    <p class="main-message"><b>Collect 10 night get 1&nbsp;reward* night</b></p>
+                    <p class="additional-message">No gimmicks, just rewards.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row marketing-copy-section mb-dog">
+        <div class="col-12">
+          <p class="mh-mouse mh-bird--m mh-horse--l">
+            LuxuryResort.com is a leading online accommodation site.
+             We’re passionate about travel. Every day we inspire
+              and reach millions of travelers across 90 local
+               websites in 41 languages. So when it comes to
+                booking the perfect hotel, vacation rental, 
+                resort, apartment, guest house or treehouse - 
+                we’ve got you covered. With hundreds of thousands
+                 of properties in over 200 countries and territories, 
+                 we provide incomparable choice with a Price Guarantee.
+                  Our site is fun and simple to use and we offer 
+                  innovative online tools and a top rated mobile app.
+          </p>
+        </div>
+      </div>
+
+    <footer>
+        <div><table>
+            <ul class="footer">
+            <li><a href="AboutUs/aboutUs.html">About_us</a></li>
+            <li><a href="#about">Jobs</a></li>
+            <li><a href="#about">News</a></li>
+        </ul>
+    </table>
+    </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <form action="#" method="get">
+
+    <fieldset>
+
+        <legend>Login information</legend>
+        
+        <label for="username">Username</label>
+        
+        <p><input type="text" name="usr" id="usr" /></p>
+        
+        <label for="password">Password</label>
+        
+        <p><input type="text" name="pass" id="pass" /></p>
+        
+        </fieldset>
+
+</form> -->
+

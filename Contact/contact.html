@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contact.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Contact</title>
+</head>
+<body>
+        <header>
+          <div>
+            <ul class="header">
+                <!-- <img class="leftAlign" src="../images/logo.png" ></img> -->
+                    <div class="leftAlign">
+                      <nav>
+                      <a href="../index.html"><img src="../images/logo.png" /></a>
+                      </nav>
+                    </div>
+               
+                    <li><a  href="../login.html">Login</a></li>
+                    <li><a href="../register.html">Register</a></li>
+                    <li><a href="../Prices/price.html">Prices</a></li>
+                    <li><a  href="../index.html">Home</a></li>
+            </ul>
+           </div>
+        </header>
+
+        <div class="container" style="background-color: #fff;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                        Contact us    
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li class="active">
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li class="active">
+                            Contact_us
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <img class="img-responsive" src="../images/map.png" alt>
+                    <!-- <iframe src="../images/map.png" width="550" height="320" frameborder="0" style="border:0"
+                    allowfullscreen>
+                   
+                    </iframe> -->
+                </div>
+ 
+                <div class="col-md-4">
+                     <h2 style="margin-top: 0px;">
+                     Contact us</h2>
+                     <p>
+                         <i class="material-icons" style="font-size: 15px; "> &#xe55f; </i>
+                           2700, Blagoevgrad
+                     </br>
+                         </p>
+                     <p>
+                        <i class="material-icons" style="font-size: 15px;"> &#xe551; </i>
+                        +359 666 666 111
+                    </p>
+
+                     <p>
+                        <i class="material-icons" style="font-size: 15px;"> &#x23F0; </i>
+                         24/7 work time
+                    </p>
+
+                     <p style="text-transform: uppercase;" class="text-danger">  
+                        <i class="material-icons" style="font-size: 15px; color: red;">&#xe000;</i>
+
+                         We accept reservation by phone or with online reservation
+                         <br>
+                        </p>
+                 </div>
+ 
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h3>Send Request</h3>
+ 
+               <form name="sentMessage" id="conctactForm" novalidate>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Your Name:</label>
+                        <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Phone:</label>
+                        <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>E-Mail:</label>
+                        <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Message:</label>
+                        <textarea rows="10" cols="100" class="form-control" id="message"
+                        required data-validation-required-message="Please enter your message"
+                        maxlength="999" style="resize: none;" aria-invalid="false">
+                        </textarea>
+
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <div id="success"></div>
+                <!-- For succes/fail messages -->
+                <button type="submit" class="btn btn-primary">
+                    
+                    <i class="fa fa-send-o" style="font-size: 15px;"></i>
+
+                    Send message:
+                </button>
+               </form>
+
+               <!-- <p>
+                <i class="fa fa-map-marker  material-icons" style="font-size: 15px;"> &#x23F0; </i>
+                 24/7 work time
+            </p> -->
+
+            </div>
+
+        </div>
+
+        <hr>
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>
+                          &copy;  Copyright  LuxuryResort.com 2020
+                        </p>
+                    </div>
+                    
+                    <div class="col-lg-6 text-right">
+                        <p>
+                            "Created by "
+                            <!-- new blank page -->
+                            <a href="../index.html" target="_blank" title="LuxuryResort.com - Онлайнн
+                            поръчки на интернет маркетингови услуги. ">
+                            LuxuryResort.com
+                            </a>
+                        </p>
+                    </div>
+    
+                </div>
+    
+            </footer>
+        </div>
+
+</body>
+</html>
