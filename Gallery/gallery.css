@@ -46,7 +46,8 @@ li a {
 
 .container {
     width: 970px;
-    height: 1200px;
+    /* height: 900px; */
+    height: 100%;
 }
 
 
@@ -118,7 +119,7 @@ hr {
 
 .breadcrumb>li {
   display: inline-block;
-  margin-left: -30px;
+  margin-left: -25px;
   margin-top: -25px;
 }
 li {
@@ -204,6 +205,8 @@ li {
  padding: 5px;
  float: left;
  box-shadow: 0px 2px 7px #808080;
+ margin-left: 30px;
+ margin-bottom: 20px;
  }
 
 /*Форматиране на класа съдържащ изображението*/
@@ -212,14 +215,15 @@ li {
  text-align: left;
  margin: auto;
  overflow: hidden;
- height: 150px;
+ height: 160px;
 }
 
 /*Форматиране на изображението, което ще се активира при преминаване върху него*/
 .imgp > img:hover
 {
-  transform: scale(1.2) translate(-10%, -120%);
- position: absolute  ;
+  transform: scale(1.1) translate(-10%, -20%);
+ position: absolute;
  transition-duration: 0.5s;
  box-shadow: 2px 2px 5px #808080;
 }
+

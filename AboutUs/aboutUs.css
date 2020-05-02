@@ -27,7 +27,7 @@ ul.header {
     display: block;
     color: white;
     text-align: center;
-    padding: 39px 33px;
+    padding: 39px 13px;
     text-decoration: none;
     
   }
@@ -116,7 +116,7 @@ hr {
 
 .breadcrumb>li {
     display: inline-block;
-    margin-left: -30px;
+    margin-left: -20px;
     margin-top: -25px;
 }
 li {
