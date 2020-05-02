@@ -27,7 +27,7 @@ ul.header {
     display: block;
     color: white;
     text-align: center;
-    padding: 39px 33px;
+    padding: 39px 13px;
     text-decoration: none;
     
   }
@@ -157,9 +157,8 @@ li {
 }
 
 .active{
-    padding: 0px 10px; 
-    padding-left: 0px;
-    padding-right: 30px;
+    padding: 0px 15px; 
+    padding-left: 15px;
 
 }
 
