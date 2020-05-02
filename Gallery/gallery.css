@@ -1,0 +1,39 @@
+body{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 1000rem;
+    min-width: 1000px;
+    font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+  
+  }
+  
+  ul.header {
+    list-style-type: none;
+    margin: -20px;
+    width: 1548px;
+    padding-right: -50px;
+    overflow: hidden;
+    background-color: rgb(52, 6, 78);
+  }
+  
+  header ul li {
+    float: right;
+    font-size: 23px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 42px 30px; */
+    text-decoration: none;
+  }
+  
+  .leftAlign nav img{
+    background-color: rgb(52, 6, 78);
+      padding-top: 9px;
+      height: 112px;
+      width: 250px;
+      float:left;
+  }
+  
