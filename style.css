@@ -86,13 +86,13 @@ footer a:visited {
   text-decoration: underline;
 }
 
-.mySlides { 
+.mySlides {
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
 height: 350px;
-} 
+}
 /* .w3-left, .w3-right, .w3-badge {
   position: absolute;
   margin-top: 300px;
@@ -386,7 +386,7 @@ width: 80px;
 margin-top: -40px;
 border-radius: 50%;
 box-shadow: 15px 15px 0 0 black;
-} 
+}
 
 /* paragraph with info about the hotel */
 .row {
@@ -469,7 +469,7 @@ form.example::after {
 content: "";
 clear: both;
 display: table;
-  
+
 }
 
 
@@ -477,4 +477,13 @@ display: table;
 .adjustLogin{
 padding-right: 3px;
 padding-left: 3;
+}
+
+/* copyright adjust */
+.copyRightAlign{
+  float: left;
+  padding-left: 38%;
+  padding-right: 30%;
+  padding-top: 40px;
+  color: rgba(255, 255, 255, 0.694);
 }
