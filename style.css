@@ -27,7 +27,7 @@ ul.header {
 
 header ul li {
   float: right;
-  font-size: 23px;
+  font-size: 19px;
 }
 
 li a {
@@ -72,7 +72,7 @@ ul.footer{
 
 footer ul li {
   float: left;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 
@@ -472,7 +472,13 @@ display: table;
 
 }
 
-
+.underline 
+{   
+    /*text-decoration: underline;
+    text-decoration-color: red;*/
+    border-bottom: 3px solid orange;
+    height: 73px;
+}
 /* login adjust */
 .adjustLogin{
 padding-right: 3px;

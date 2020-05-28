@@ -8,7 +8,7 @@ body{
 ul.header {
     list-style-type: none;
     margin: -20px;
-    height: 112px;
+    height: 110px;
     margin-bottom: -42px;
     /* width: 1; */
     margin-right:  -8px;
@@ -18,7 +18,7 @@ ul.header {
   
   header ul li {
     float: right;
-    font-size: 23px;
+    font-size: 19px;
     
   }
 
@@ -26,7 +26,7 @@ ul.header {
     display: block;
     color: white;
     text-align: center;
-    padding: 39px 13px;
+    padding: 41px 10px;
     text-decoration: none;
     
   }
@@ -34,6 +34,7 @@ ul.header {
   /* Change the link color to #111 (black) on hover */
  .header li a:hover {
     background-color: #777;
+    transform: scale(1.1);
   }
 
 .leftAlign nav img{
@@ -47,7 +48,7 @@ ul.header {
 .container {
     /* width: 970px; */
     width: 80%;
-    height: 700px;
+    height: 600px;
 }
 .container {
     /* here or at bottom of the header */
@@ -465,7 +466,56 @@ h4{
 }
 
 /* css success symbol */
-span{
+/* span{
     content: "\2713";
+} */
+
+.underline 
+{   
+    /*text-decoration: underline;
+    text-decoration-color: red;*/
+    border-bottom: 3px solid orange;
+    height: 75px;
 }
 
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 35px;
+    /* margin-left: 20px; */
+    border: 1px solid grey;
+    width: 195px;
+    float: left;
+    background: #f1f1f1;
+    }
+    
+    /* Style the submit button */
+    form.example button {
+    /* float: left; */
+    width: 12%;
+    padding: 10px;
+    margin-top: 35px;
+    padding-right: 30px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    }
+    
+    form.example button:hover {
+    background: #0b7dda;
+    }
+    
+    /* Clear floats */
+    form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+    }
+
+
+    
