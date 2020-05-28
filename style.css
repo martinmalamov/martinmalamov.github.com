@@ -181,12 +181,11 @@ vertical-align: top;
 }
 .punch-card .night-icons {
 background-color: red;
-margin-bottom: -8px;
 text-align: left;
-margin-left: -2px;
+margin-left: 0px;
 width: 210px;
-height:105px;
-padding-top:5px;
+height:110.5px;
+margin-top: -0.5px;
 
 }
 
