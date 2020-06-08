@@ -20,14 +20,14 @@ ul.header {
   header ul li {
     float: right;
     font-size: 19px;
-    
+    padding-top: 1px;
   }
 
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 42px 8px;
+    padding: 40px 10px;
     text-decoration: none;
     
   }
@@ -76,7 +76,7 @@ ul.header {
   /* page header */
   .page-header {
     padding-bottom: 0;
-    margin: 0px 0 20px;
+    margin: 0px 0px 20px;
     padding-top: 15px;
     border-bottom: 1px solid #eee;
 }
@@ -116,7 +116,7 @@ hr {
 
 .breadcrumb>li {
     display: inline-block;
-    margin-left: -20px;
+    margin-left: -15px;
     margin-top: -25px;
 }
 li {
@@ -132,7 +132,7 @@ li {
   }
 
 .breadcrumb {
-    padding: 0px 15px ;
+    padding-left: 15px;
     margin-bottom: 21px;
     height: 50px;
     list-style: none;
@@ -142,7 +142,6 @@ li {
 
 .breadcrumb>li+li:before {
     content: "/\00a0";
-    padding: 0 5px;
     color: #cccccc;
     
 }
@@ -155,10 +154,7 @@ li {
 }
 
 .active{
-    padding: 0px 10px; 
-    padding-left: 0px;
-    padding-right: 30px;
-
+    padding: 0px 20px 0px 0px; 
 }
 
 .breadcrumb  li a {
