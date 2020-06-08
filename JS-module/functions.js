@@ -20,3 +20,17 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+
+function aboutUsText() {
+  let div = document.querySelector('#extra');
+  let btn = document.querySelectorAll('.button')[0];
+
+  if (div.style.display === 'block') {
+    btn.textContent = 'More';
+    div.style.display = 'none';
+  } else {
+    btn.textContent = 'Less';
+    div.style.display = 'block';
+  }
+}
