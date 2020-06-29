@@ -7,7 +7,7 @@ body{
 
 }
 
-@media screen and (max-width: 600){
+@media screen and (max-width: 300){
   html{
     font-size: 16px;
   }
