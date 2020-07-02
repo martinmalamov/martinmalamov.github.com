@@ -664,12 +664,12 @@ footer{
 @media (max-width: 430px){
 
   nav{
-    width: 43ch;
+    width: 42ch;
   }
 
   .carousel-inner{
     /* width:  421px; */
-    width: 43ch;
+    width: 42ch;
     height: 200px;
   }
 
@@ -693,7 +693,7 @@ footer{
     left: 0;
     right: 0;
     height:60px; 
-    width: 430px;
+    width: 42ch;
     height: 250px;
     background-color: darkred;
   }
