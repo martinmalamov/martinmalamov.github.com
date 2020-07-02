@@ -22,16 +22,17 @@
             <!-- 100% of the screen (container-fluid) -->
             <div>
                 <div class="headerElementAdjust">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive">
                         <span class="navbar-toggler-icon"></span>
-
                     </button>
                     <span class="logIn"><a href="#">Log In <i class="far fa-user"></i></a></span>
                 </div>
 
-                <div class=" navbar-collapse " id="navbarResponsive">
+                <div class=" navbar-collapse  hide " id="navbarResponsive">
                     <ul class="navbar-nav ">
-                        <li class="nav-item active "><a class="nav-link" href="#"><i class="glyphicon glyphicon-home"></i></a>
+                        <li class="nav-item active "><a class="nav-link" href="#"><i
+                                    class="glyphicon glyphicon-home"></i></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Prizes</a>
@@ -47,89 +48,8 @@
                 </div>
             </div>
         </nav>
-        <main>
-            <div id="slides" class="carousel slide" data-ride="carousel">
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/backgroundPhoto.png">
- 
-                    </div>
-                </div>
-
-                <div class="regAndLogin">
-                    <p>
-                    <h1>Register or <span class="underlineLogin">login</span></p>
-                    </h1>
-                </div>
-                <div>
-                    <p>
-                    <h4>Enjoy 1 in 10 chance of winning a prize every Saturday night.</p>
-                    </h4>
-                </div>
-        </main>
-
-        <aside class="container-aside">
-            <div class="logAndRegisterBox">
-                <form action="#">
-                    <p class="leftAlignInfoForUser"><label for="fname">First Name</label></p>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                    <p class="leftAlignInfoForUser"><label for="lname">Surname</label></p>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                    <p class="leftAlignInfoForUser"><label for="country">Name of country where you live</label></p>
-                    <input type="text" id="country" name="country" placeholder="Enter your country..">
-
-                    <p class="leftAlignInfoForUser"><label for="email">Your email address</label></p>
-                    <input type="text" id="email" name="email" placeholder="Enter your email..">
-
-                    <p class="leftAlignInfoForUser"><label for="password">Your new password</label></p>
-                    <input type="text" id="password" name="password" placeholder="Enter your new password..">
-
-                    <!-- requirements -->
-                    <p class="requirements">Your password must contain at lease 8 characters , at least 1 capital letter
-                        and
-                        at least 1 number</p>
-
-                    <div class="acceptTerms">
-                        <label class="leftPadding">
-                            <input type="checkbox" name="sameadr"><span class="textCenter"> Accept Terms and conditions
-                                and
-                                i am over 18
-                                old</span>
-                        </label>
-                        <label class="leftPadding">
-                            <input type="checkbox" name="sameadr"> Accept Terms and conditions and i am over 18 old
-                        </label>
-                        <label class="leftPadding">
-                            <input type="checkbox" name="sameadr"> Accept Terms and conditions and i am over 18 old
-                        </label>
-                        <!-- captcha -->
-                        <div class="captcha">
-                            <div class="spinner">
-                                <label>
-                                    <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
-                                    <span class="checkmark"><span>&nbsp;</span></span>
-                                </label>
-                            </div>
-                            <div class="text">
-                                I'm not a robot
-                            </div>
-                            <div class="logo">
-                                <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/" />
-                                <p>reCAPTCHA</p>
-                                <small>Privacy - Terms</small>
-                            </div>
-                        </div>
-
-                        <p class="buttonHolder"><input type="submit" value="Register now"></p>
-                    </div>
-
-
-                    <!-- register button -->
-                </form>
-            </div>
+        </form>
+        </div>
         </aside>
 
         <footer>

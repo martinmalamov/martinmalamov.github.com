@@ -5,7 +5,7 @@
 }
 
 
-body{
+ body{
   margin:0;
   padding: 0;
   font-family: Lays;
@@ -156,6 +156,7 @@ input[type=submit] {
 
 .container-aside{
   text-align: center;
+
 }
 
 .logAndRegisterBox{
@@ -196,40 +197,75 @@ input[type=checkbox] {
   height: 5mm;
   border: 0.7mm solid black;
 }
-/* input[type=checkbox]:checked {
-  background-color: blue;
-} */
-
-/* input[type=checkbox]:checked:after {
-  margin-left: 2mm;
-  margin-top: -0.4mm;
-  width: 5mm;
-  height: 8mm;
-  border: solid white;
-  border-width: 0 2mm 2mm 0;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(45deg);
-  content: "";
-  display: inline-block;
-} */
 
 /* Terms */
 
 
 /* captcha */
-.captcha {
+ .captcha {
 	background-color:#f9f9f9;
 	border:2px solid #d3d3d3;
 	border-radius:5px;
 	color:#4c4a4b;
-  display:flex;
-  width: 26%;
+  display:block;
+  width: 30%;
+  height: 10%;
 	justify-content:center;
 	align-items:center;
 }
 
+.logo{
+  display: inline-block;
+}
+.logo img {
+	height:2em;
+  width:2em;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+.logo p {
+	color:#9d9ba7;
+	margin:0;
+	font-size:1em;
+	font-weight:700;
+	margin:.4em 0 .2em 0;
+}
+.logo small {
+	color:#9d9ba7;
+	margin:0;
+	font-size:.8em;
+}
+
+input[type="checkbox"]{
+	width:2em;
+	height:2em;
+  background-color:green;
+	border:2.5px solid green;
+	border-radius:3px;
+	justify-content:center;
+	align-items:center;
+	cursor: pointer;
+}
+
+input[type="checkbox"]+.checkmark>span:before {
+	content:'';
+	position:absolute;
+	display:block;
+	width:3px;
+	bottom:0;right:0;
+	background-color:#029f56;
+}
+
+input[type="checkbox"]+.checkmark>span:after {
+	content:'';
+	position:absolute;
+	display:block;
+	height:3px;
+	bottom:0;left:0;
+	background-color:#029f56;
+}
+/*
 @media screen and (max-width: 500px) {
 	.captcha {
 		flex-direction:column;
@@ -275,11 +311,8 @@ input[type="checkbox"]+.checkmark {
 }
 input[type="checkbox"]+.checkmark span {
 	content:'';
-	position:relative;/*
-	position:absolute;
-	border-bottom:3px solid;
-	border-right:3px solid;
-	border-color:#029f56;*/
+	position:relative;
+
 	margin-top:-3px;
 	transform:rotate(45deg);
 	width:.75em;
@@ -321,8 +354,8 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 @keyframes rightslide {
 	0% {height:0;}
 	100% {height:100%;}
-}
-.logo {
+} */
+/* .logo {
 	display:flex;
 	flex-direction:column;
 	align-items:center;
@@ -345,7 +378,7 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 	color:#9d9ba7;
 	margin:0;
 	font-size:.8em;
-}
+} */
 @keyframes spin {
 	10% {
 		width:0;
@@ -393,6 +426,8 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 	color:teal;
 }
 /* captcha */
+
+
 footer{
   bottom:0;
   left: 0;
@@ -485,6 +520,14 @@ footer{
 /* MEDIA tablet */
 @media (max-width: 768px){
 
+  .logIn{
+    color: white;
+    font-size: 15px;
+    float: right;
+    padding: 3px 15px 0 0;
+  }
+
+
   .toggle{
     display: block;
   }
@@ -508,6 +551,7 @@ footer{
   ul{
     width: 100%;
     display: none;
+    
   }
 
   ul li{
@@ -597,6 +641,18 @@ footer{
 /* Media  phone*/
 @media (max-width: 576px){
 
+
+  .leftPadding{
+    float: left;
+    padding: 10px 0px 0px 0px;
+  }
+  
+  input[type=checkbox] {
+    width: 9mm;
+    -webkit-appearance: button;
+    height: 5mm;
+    border: 0.7mm solid black;
+  }
   
   .logIn{
     color: white;
@@ -683,13 +739,30 @@ footer{
 
 @media (max-width: 430px){
 
+  
+  input[type=checkbox] {
+    width: 9mm;
+    -webkit-appearance: button;
+    height: 5mm;
+    border: 0.7mm solid black;
+  }
+  
+  .logIn{
+    color: white;
+    font-size: 12px;
+    width: 11ch;
+    float: right;
+    padding: 5px 26px 0 0;
+  }
+  
+
   nav{
-    width: 46.5ch;
+    width: 43rem;
   }
 
   .carousel-inner{
     /* width:  421px; */
-    width: 46.5ch;
+    width: 43rem;
     height: 200px;
   }
 
@@ -713,7 +786,7 @@ footer{
     left: 0;
     right: 0;
     height:60px; 
-    width: 46.5ch;
+    width: 43rem;
     height: 250px;
     background-color: darkred;
   }
