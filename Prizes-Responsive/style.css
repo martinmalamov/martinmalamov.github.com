@@ -825,9 +825,12 @@ footer{
   .logIn{
     color: white;
     font-size: 12px;
-    width: 11ch;
+    width: 16ch;
     float: right;
-    margin: 2px -16px 0 0;
+    margin: 2px 0px 0 0;
+  }
+  .logIn a{
+    margin-left: 50px;
   }
   
 
