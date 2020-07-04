@@ -106,7 +106,7 @@ ul li:hover{
   width: 200px;
   height: 100px;
   z-index: 10;
-  margin-left: 45%;
+  margin-left: 43.5%;
   margin-top: -10px;
   border-radius: 50%;
 }
@@ -454,7 +454,6 @@ input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 
 } */
 /* captcha */
 
-
 footer{
   bottom:0;
   left: 0;
@@ -463,6 +462,7 @@ footer{
   width: 100%;
   height: 250px;
   background-color: darkred;
+  margin-bottom: 15px;
 }
  .padding{
   margin-bottom: 2rem;
@@ -903,7 +903,7 @@ footer{
     background-color: #fff;
     display: block;
     margin-bottom: 3px;
-  float: left;
+    float: left;
   }
 
 
