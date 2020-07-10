@@ -18,115 +18,28 @@
 </head>
 
 <body>
-    <!-- <div class="container">
-
-            <div class="home"><i class="glyphicon glyphicon-home"></i></div>
-            <div class="prizes">Prizes</div>
-            <div class="faqs">FAQ's</div>
-            <div class="tcs">T&Cs</div>
-
-            <div class="login">Log In<i class="far fa-user"></i></div>
-
-        </div> -->
-    <!-- <nav class="navbar navbar-expand-md p-3 mb-2 bg-danger text-white sticky-top">
-          
-            <div class="container-fluid" onclick="myFunction(this)">
-
-                <div class="container" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                    <div class="collapse navbar-collapse float-lg-left" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a href="#" class="nav-link"> 
-                                    <span class="glyphicon glyphicon-home"></span>
-                                </a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Team</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                  </div>
-                
-                
-            </div>
-        </nav>
-        <script>
-            function myFunction(x) {
-              x.classList.toggle("change");
-            }
-            </script> -->
-
-
-    <!-- <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-
-            <div class="container-fluid  p-3 mb-2 bg-danger text-white ">
-                <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse"
-                    data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-
-                </button>
-                <a href="#"></a><span class=".d-none .d-sm-block .d-md-none ml-auto">Log In<i
-                        class="far fa-user hideElement"></i></span>
-
-
-
-                <div class="collapse navbar-collapse  " id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">
-                                <span class="glyphicon glyphicon-home"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Prizes</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">FAQ's</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">T&Cs</a>
-                        </li> 
-         <li class="nav-item active">
-                            <a class="nav-link " href="#">Log In<i class="far fa-user"></i></a>
-                        </li> 
-         </ul>
-                </div>
-            </div>
-        </nav>  -->
-
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top ">
-
+    <nav class="navbar  navbar-default   navbar-expand-sm ">
         <div class="container-fluid  p-1 mb-2  text-white  ">
-            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
+            <button type="button" class="navbar-toggle  collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+                <span class="navbar-toggler-icon "></span>
+
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+
             </button>
-
-
-            <div><img src="../images/walkers.png" class="walkersLogo brand"></div>
-
-            <a href="#"></a><span class="ml-right hideElement">Log In<i class="far fa-user"></i></span>
-
-
-            <div class="collapse navbar-collapse  float-sm-center " id="navbarResponsive">
-                <ul class="navbar-nav ml-auto ">
-                    <hr class="borderTop">
+            <div>
+                <img src="../images/walkers.png" class="walkersLogo brand">
+            </div>
+            <div class="ml-auto  text-white">
+                <a href="#"></a><span class="hideElement">Log In<i class="far fa-user"></i></span>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
                     <li class="nav-item active ">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href=""><i class="fa fa-home"></i></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Prizes</a>
@@ -140,21 +53,48 @@
                 </ul>
 
             </div>
-            <!-- <a class="nav-link" href="#"></a> -->
             <span class=".d-none .d-sm-block .d-md-none ml-auto  hideSecondLogIn">Log
                 In<i class="far fa-user"></i></span>
         </div>
     </nav>
 
 
+    <!-- <nav class="navbar navbar-expand-sm navbar-light sticky-top ">
+
+        <div class="container-fluid  p-1 mb-2  text-white  ">
+            <button class="navbar-toggler mr-auto " type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div><img src="../images/walkers.png" class="walkersLogo brand"></div>
+
+            <a href="#"></a><span class="ml-right hideElement">Log In<i class="far fa-user"></i></span>
+
+            <div class="collapse navbar-collapse  float-sm-center " id="navbarResponsive">
+                <ul class="navbar-nav ml-auto ">
+                    <hr class="borderTop">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href=""><i class="fa fa-home"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Prizes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">FAQ's</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">T&Cs</a>
+                    </li>
+                </ul>
+
+            </div>
+            <span class=".d-none .d-sm-block .d-md-none ml-auto  hideSecondLogIn">Log
+                In<i class="far fa-user"></i></span>
+        </div>
+    </nav> -->
+
+
     <main>
         <div>
-
-            <!-- <div class="carousel-inner">
-                <div>
-                </div>
-            </div> -->
-
             <div class="text1 ">
                 <p>
                 <h1>PRIZES <span class="underlineLogin"></span></p>
@@ -255,14 +195,8 @@
                             <img src="../images/walkers.png">
                         </div>
                     </div>
-                    <!-- <a class="left carousel-control" href="#slider" data-slide="prev" role="button">
-                        <span class="icon-prev"></span></a>
-                    <a class="right carousel-control" href="#slider">
-                        <span class="icon-next" data-slide="next" role="button"></span></a> -->
                 </div>
-
     </main>
-
 
     <footer>
         <div>
@@ -276,7 +210,7 @@
             <div class="footerTerms">
                 <p><b><a href="#" target="_blank">Terms and conditions
                             <p>Privacy</p>
-                </a></b></p>
+                        </a></b></p>
             </div>
 
             <div class="copyRight">
