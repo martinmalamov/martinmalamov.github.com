@@ -151,62 +151,58 @@ svg:not(:root).svg-inline--fa{
 }
 
 
-  /* footer */
-  footer{
-    bottom:0;
-    left: 0;
-    right: 0;
-    height:60px; 
-    width: 100%;
-    height: 250px;
-    background-color: darkred;
-    margin-bottom: 15px;
-  }
-   .padding{
-    margin-bottom: 2rem;
-  }
+footer{
+  bottom:0;
+  left: 0;
+  right: 0;
+  height:60px; 
+  width: 100%;
+  height: 250px;
+  background-color: darkred;
+  margin-bottom: 15px;
+}
+ .padding{
+  margin-bottom: 2rem;
+}
+
+.fa-facebook {
+  color: rgb(255, 255, 255)
+}
+.fa-twitter{
+  color: rgb(255, 255, 255)
+}
+.social{
+  padding: 10px 30% 0 42% ;
+}
+
+.social a {
   
-  .fa-facebook {
-    color: rgb(255, 255, 255);
-    
-  }
-  .fa-twitter{
-    color: rgb(255, 255, 255)
-  }
-  .social{
-    padding: 10px 30% 0 45% ;
-  }
-  
-  .social a {
-    font-size: 4.5em;
-    padding: 3rem;
-  }
-  .fa-facebook:hover ,
-  .fa-twitter:hover {
-    background-color: rgb(203, 0, 0)
-  }
-  /* footerImage */
-  
-  /* footerTerms */
-  .footerTerms{
-    text-align: center;
-    /* text-decoration: underline; */
-  }
-  .footerTerms a{
-    color: white;
-    text-decoration: underline;
-    margin:20px
-  }
-  
-  .copyRight{
-    color: white;
-    text-align: center;
-    margin:30px 0 0 0 ;
-  }
-  /* footerTerms */
-  
-  
-  /* footer */
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook:hover ,
+.fa-twitter:hover {
+  background-color: rgb(203, 0, 0)
+}
+/* footerImage */
+
+/* footerTerms */
+.footerTerms{
+  text-align: center;
+  /* text-decoration: underline; */
+}
+.footerTerms a{
+  color: white;
+  text-decoration: underline;
+  margin:20px
+}
+
+.copyRight{
+  color: white;
+  text-align: center;
+  margin:30px 0 0 0 ;
+}
+/* footerTerms */
 
 @media (min-width:976px){
      
@@ -405,9 +401,69 @@ svg:not(:root).svg-inline--fa{
      margin-left: 2rem;
      padding-right: 5rem;
    }
-   
 
+
+    /* footer */
+    footer {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: auto;
+      height: auto;
+      background-color: darkred;
   }
+
+   div .social{
+      min-width: auto;
+      min-height: auto;
+      padding-bottom: 0px;
+      /* background-color: black; */
+    }
+
+    div .social p{
+      width: 100%;
+      text-align: center;
+      margin-left: -2rem;
+    }
+ 
+  .fa-facebook {
+    color: rgb(255, 255, 255);
+  }
+  .fa-twitter{
+    color: rgb(255, 255, 255)
+  }
+
+  .fa-facebook:hover ,
+  .fa-twitter:hover {
+    background-color: green
+  }
+  /* footerImage */
+  
+  /* footerTerms */
+  .footerTerms{
+    text-align: center;
+    padding-top: 15px;
+    /* text-decoration: underline; */
+  }
+  .footerTerms a{
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .copyRight{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    margin:2rem;
+  }
+  /* footerTerms */
+   
+  .social svg:not(:root).svg-inline--fa{
+    overflow: visible;
+    padding: 3px 0 0 0;
+    font-size: 2.5em;
+  }
+}
   
   
     
