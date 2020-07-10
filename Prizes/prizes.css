@@ -1,0 +1,464 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700'); */
+
+/* html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins',sans-serif;
+  color: #222;
+} */
+
+
+/* .container{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 20px;
+} */
+
+/* .prizes{
+    padding-left: 20px;
+}
+.faqs{
+    padding-left: 20px;
+}
+.tcs{
+    padding-left: 20px;
+} */
+
+/* 
+.login{
+    margin-left: auto;
+    padding-left: 20px;
+    
+} */
+
+
+/* .navbar{
+  }
+  
+  .navbar-nav li{
+    padding-right: 20px;
+  }
+  
+  .nav-link{
+    font-size: 1.1em !important;
+  } */
+
+  .card-img-top{
+    height: 200px;
+  }
+
+.container-fluid{
+  padding-left: 15%;
+}
+
+  header{
+      width: 100%;
+      height: 60px;
+  }
+
+  .navbar{
+    border-radius: 0px;
+  }
+  /* .navbar{
+    margin-bottom: 50px !important;
+    border-radius: 0px;
+  } */
+
+  .navbar-light{
+      background-color: red;
+  }
+
+
+  .navbar-nav>li>a {
+      text-align: center;
+  }
+
+  .hideElement{
+      color: white;
+      display: none;;
+  }
+  .hideSecondLogIn{
+    color: white;
+    display: flex;
+    font-size: 17px;
+}
+
+svg:not(:root).svg-inline--fa{
+    overflow: visible;
+    padding: 3px 0 0 -23px;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+    color: white;
+    font-size: 17px;
+}
+
+
+  header img {
+    margin-left: 50%;
+    transform: translateX(-5%);
+  }
+.bg-light{
+    background-color: #dc3545 !important;
+}
+
+.carousel{
+    position: relative ;
+    padding-top: 30px;
+  }
+
+  .walkersLogo{
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    z-index: 10;
+    margin-left: 43.5%;
+    margin-top: -8px;
+    border-radius: 60%;
+  }
+
+  .text1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    padding-top: 80px;
+
+  }
+  .text2{
+      text-align: center;
+      color: black;
+      text-transform: uppercase;
+      padding-top: 30px;
+
+  }
+  .text3{
+      text-align: center;
+      color: #777;
+      text-transform: uppercase;
+      padding-top: 30px;
+  }
+
+
+.brand {
+    position: absolute;
+    left: 46.5%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+
+  /* footer */
+  footer{
+    bottom:0;
+    left: 0;
+    right: 0;
+    height:60px; 
+    width: 100%;
+    height: 250px;
+    background-color: darkred;
+    margin-bottom: 15px;
+  }
+   .padding{
+    margin-bottom: 2rem;
+  }
+  
+  .fa-facebook {
+    color: rgb(255, 255, 255);
+    
+  }
+  .fa-twitter{
+    color: rgb(255, 255, 255)
+  }
+  .social{
+    padding: 10px 30% 0 45% ;
+  }
+  
+  .social a {
+    font-size: 4.5em;
+    padding: 3rem;
+  }
+  .fa-facebook:hover ,
+  .fa-twitter:hover {
+    background-color: rgb(203, 0, 0)
+  }
+  /* footerImage */
+  
+  /* footerTerms */
+  .footerTerms{
+    text-align: center;
+    /* text-decoration: underline; */
+  }
+  .footerTerms a{
+    color: white;
+    text-decoration: underline;
+    margin:20px
+  }
+  
+  .copyRight{
+    color: white;
+    text-align: center;
+    margin:30px 0 0 0 ;
+  }
+  /* footerTerms */
+  
+  
+  /* footer */
+
+@media (min-width:976px){
+     
+  
+    }
+
+  @media (max-width:576px){
+
+  
+    /* .navbar{
+      margin-bottom: 25rem !important;
+    }
+   */
+
+    .brand {
+      position: absolute;
+      margin-top: 0.8em;
+      margin-left: -1.3rem !important;  /* 50% of your logo width */
+      display: block;
+  }
+    
+    img .walkersLogo{
+    transform: translateX(-80%);
+  }
+
+  .walkersLogo{
+    width: 6rem;
+    height: 4rem;
+    /* z-index: 10; */
+    /* margin-left: 12em;
+    margin-top: -2em; */
+    border-radius: 60%;
+  }
+
+
+    .hideSecondLogIn{
+        color: white;
+        display: none;
+        margin-right: 0px;
+    }
+    .hideElement{
+        color: white;
+        display: flex;;
+        margin: 5px -0.3em;
+    }
+    svg:not(:root).svg-inline--fa{
+        overflow: visible;
+        padding: 3px 0 0 0;
+        margin: 0px 0;
+        font-size: 16px;
+    }
+
+    
+
+    .navbar-light .navbar-nav .active > .nav-link{
+      padding-top: 30px;
+        font-size: 15px;
+    }
+
+    .borderTop{
+        border-top: 2px solid black;
+        width: 100%;
+        margin-left: -1rem;
+    }
+
+    .container-fluid {
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+
+       .text1{
+        text-align: center;
+        color: red;
+        text-transform: uppercase;
+        padding-top: 2rem;
+        font-size: 3rem;
+  
+    }
+    h1{
+      font-size: 2.3rem;
+    }
+    h4{
+      font-size: 1.3rem;
+    }
+
+    .text3 h4{
+      font-size: 1.7rem;
+    }
+  
+    .text2{
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        padding-top: 2rem;
+  
+    }
+    .text3{
+        text-align: center;
+        color: #777;
+        text-transform: uppercase;
+        padding-top: 2rem;
+    }
+
+    .removeImagesOnSmallScreen{
+      display: none;
+    }
+
+    
+    #slide1 {
+      width: auto;
+      height: 20em;
+    }
+   
+    #slide2 {
+      width: auto;
+      height: 20em;
+    }
+    #slide3 {
+      width: auto;
+      height: 20em;
+    }
+
+    .carousel-inner {
+      height: 29rem;
+    }
+    .carousel-inner img{
+      max-width:100%;
+      min-height: 10rem;
+      max-height:100%;
+      height: 29rem;
+    }
+    /* div .carousel-inner {
+      width: 43rem;
+      margin-bottom: 4rem;
+    } */
+   
+
+     #slider .item{
+      /* width: 100%;
+      min-width: 100px;
+      min-height: 10rem;
+      height: auto; */
+    } 
+
+    /* #slide1 #slide2 #slide3 img{
+   
+      width: 100px;
+      min-width: 100px;
+      min-height: 100px;
+      height: auto;
+    } */
+/* 
+    .carousel-caption img{
+      width: 100px;
+    } */
+  
+ 
+    .carousel-indicators li {
+     display: inline-block;
+     width: 10px;
+     height: 10px;
+     margin: 1px;
+     text-indent: -999px;
+     cursor: pointer;
+     background-color:rgb(246, 242, 242);
+     color: black;
+     border: 1px solid #777;
+     border-radius: 20px;
+   }
+ 
+   .carousel-indicators .active{
+     background-color: red;
+   }
+
+   .carousel-inner img{
+     margin-left: 2rem;
+     padding-right: 5rem;
+   }
+   
+
+  }
+  
+  
+    
+/* Start Toggle */
+ 
+.toggle {
+    width: 30px;
+    padding: 10px;
+    float: left;
+    background-color: #00BCD4;
+    border-radius: 10px;
+    margin: 6px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .toggle span {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  
+  /* End Toggle */
+
+
+  [class*="col-"] {
+    padding: 2rem;
+}
+
+
+/* 
+#my-carousel .carousel-inner .item {
+  width: 100%;
+  height: 300px;
+}
+#my-carousel .carousel-inner .item {
+  background-image: url(http://dummyimage.com/1500x500/333/999.png);
+  background-size: cover;
+  background-position: center top;
+}
+#my-carousel .carousel-inner .item-2 {
+  background-image: url(http://dummyimage.com/1500x500/555/999.png)
+}
+#my-carousel .carousel-inner .item-3 {
+  background-image: url(http://dummyimage.com/1500x500/777/999.png)
+}
+   */
+
+   /* #slider {
+     margin-top: 60px;
+   } */
