@@ -220,7 +220,7 @@ footer{
     .brand {
       position: absolute;
       margin-top: 0.8em;
-      margin-left: -1.3rem !important;  /* 50% of your logo width */
+      margin-left: -1.35rem !important;  /* 50% of your logo width */
       display: block;
   }
     
@@ -259,6 +259,7 @@ footer{
 
     .navbar-light .navbar-nav .active > .nav-link{
       padding-top: 30px;
+      padding-right: 15px;
         font-size: 15px;
     }
 
