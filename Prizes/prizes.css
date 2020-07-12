@@ -1,4 +1,17 @@
 
+@font-face {
+  font-family: Lays;
+  src: url(../restrictions/Lays-Bold.otf) format("truetype"),
+       url(../restrictions/Lays-Medium.otf) format("truetype");
+}
+
+
+.navbar-expand-sm .navbar-nav .nav-link.termsHide {
+  display: none;
+}
+.navbar-expand-sm .navbar-nav .nav-link.termsShow {
+  display: block;
+}
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
     background-color: red;
     color: white;
@@ -188,6 +201,8 @@ svg:not(:root).svg-inline--fa{
 } */
 
   @media (max-width:576px){
+
+
 
    svg.svg-inline--fa.fa-home.fa-w-18{
      font-size: 22px;
@@ -491,7 +506,12 @@ button.navbar-toggle.collapsed{
   .fixedHeader{
     display: inline-block;
   }
-  
+  .navbar-expand-sm .navbar-nav .nav-link.termsHide {
+    display: block;
+}
+  .navbar-expand-sm .navbar-nav .nav-link.termsShow {
+    display: none;
+}
 }
   
   
