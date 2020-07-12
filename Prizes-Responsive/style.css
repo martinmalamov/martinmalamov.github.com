@@ -4,6 +4,13 @@
        url(./restrictions/Lays-Medium.otf) format("truetype");
 }
 
+
+.navbar-expand-sm .navbar-nav .nav-link.termsHide {
+  display: none;
+}
+.navbar-expand-sm .navbar-nav .nav-link.termsShow {
+  display: block;
+}
 /* header */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
   background-color: red;
@@ -867,6 +874,13 @@ footer{
     background-color: rgb(203, 0, 0)
   }
   /* footer */
+
+  .navbar-expand-sm .navbar-nav .nav-link.termsHide {
+    display: block;
+}
+.navbar-expand-sm .navbar-nav .nav-link.termsShow {
+  display: none;
+}
 }
 
 /* @media (max-width: 430px){
