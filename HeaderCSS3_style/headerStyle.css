@@ -1,0 +1,348 @@
+@font-face {
+    font-family: Lays;
+    src: url(./restrictions/Lays-Bold.otf) format("truetype"),
+         url(./restrictions/Lays-Medium.otf) format("truetype");
+  }
+
+  
+  
+    /* header START */
+body{
+  margin:0;
+  padding: 0;
+}
+
+div#slides.carousel.slide {
+  padding-top: 0px;
+}
+/* 
+.navbar-expand-sm > .container-fluid{
+  background-color: red;
+} */
+
+ nav.navbar.navbar-expand-sm.adjustPicture{
+   border-radius: 0px;
+ margin-bottom: 0px;
+}
+
+    /* Navbar white color */
+ .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(52, 6, 78);
+ }
+    /* Navbar white color */
+  .navbar-expand-sm .navbar-nav .nav-link.termsHide {
+    display: none;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link.termsShow {
+    display: block;
+  }
+
+  .navbar-expand-sm .navbar-nav .nav-link{
+    color: white;
+  }
+  /* header */
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+    background-color: rgb(52, 6, 78);
+    border-color:  rgb(52, 6, 78);
+    color: white;
+    font-size: 17px;
+  }
+  
+  .container-fluid > .navbar-collapse{
+    margin-left: -25px;
+  }
+
+  svg:not(:root).svg-inline--fa {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  /* !!! If this header is active , navbar going over image */
+/*   
+  header{
+    width: 100%;
+    height: 60px;
+  } */
+   /* !!! If this header is active , navbar going over image */
+  
+  .navbar{
+  border-radius: 0px;
+  background-color: rgb(52, 6, 78);
+  margin-bottom: -1px;
+  }
+
+  
+  .navbar-nav>li>a {
+    text-align: center;
+  }
+  
+  .hideElement{
+    color: white;
+    display: none;;
+  }
+  .hideSecondLogIn{
+  color: white;
+  display: flex;
+  font-size: 17px;
+  }
+  
+  svg:not(:root).svg-inline--fa{
+  overflow: visible;
+  padding: 3px 0 0 -23px;
+  font-size: 20px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link{
+  color: white;
+  font-size: 17px;
+  }
+
+  .bg-light{
+  background-color: #dc3545 !important;
+  }
+
+  .nav-link{
+    font-size: 19px;
+  }
+  .navbar-light .navbar-nav .active > .nav-link{
+    color: rgb(255, 255, 255);
+  }
+
+  
+  ul{
+    width: 98%;
+    margin:0 auto;
+    padding:0;
+  }
+  
+  ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+  }
+
+  
+  .toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background:  red;
+    text-align: left;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+  }
+  /* Image */
+
+  .logInHeader{
+    color: white;
+  }
+
+
+  /* header END */
+  
+
+
+  /* Media  phone*/
+@media (max-width: 576px){
+
+    /* header START */
+    
+
+    svg.svg-inline--fa.fa-home.fa-w-18{
+      font-size: 22px;
+    }
+    .navbar-expand-sm>.container-fluid {
+      margin-top: -2rem;
+    }
+  
+    .container-fluid > .navbar-collapse {
+      margin-left: -40px;
+    }
+  
+     .hideSecondLogIn{
+       color: white;
+       display: none;
+       margin-right: 0px;
+     }
+     .hideElement{
+      padding-top: 20px;
+       color: white;
+       display: inline-flex;
+       margin: 0px 0.1em;
+     }
+
+     svg:not(:root).svg-inline--fa {
+      margin-right: 10px;
+      margin-left: 0px;
+    }
+
+     /* svg:not(:root).svg-inline--fa{
+       overflow: visible;
+       padding: 3px 0 0 0;
+       font-size: 16px;
+     } */
+     
+  
+     .navbar-light .navbar-nav .active > .nav-link{
+       padding-top: 30px;
+       padding-right: 15px;
+       font-size: 15px;
+     }
+       
+     .navbar-nav .nav-link {
+      margin-right: 30px;
+      
+
+  }
+
+       /* .bar1, .bar2, .bar3 {
+         width: 35px;
+         height: 5px;
+         background-color: white;
+         margin: 6px 0;
+         transition: 0.4s;
+       } */
+/*        
+       .change .bar1 {
+         -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+         transform: rotate(-45deg) translate(-9px, 6px);
+       }
+       
+       .change .bar2 {opacity: 0;}
+       
+       .change .bar3 {
+         -webkit-transform: rotate(45deg) translate(-8px, -8px);
+         transform: rotate(45deg) translate(-8px, -8px);
+       } */
+
+     h1{
+       font-size: 2.3rem;
+     }
+     h4{
+       font-size: 1.3rem;
+       margin-left: 1.5rem;
+     }
+    
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+      background-color: rgb(52, 6, 78);
+      border-color: rgb(52, 6, 78);
+      padding-top: 2.5rem;
+      color: white;
+    }
+    
+    
+      .navbar-toggle {
+        border: none;
+        background: transparent !important;
+      }
+      .navbar-toggle:hover {
+        background: transparent !important;
+      }
+      .navbar-toggle .icon-bar {
+        background-color: white;
+        width: 22px;
+        transition: all 0.2s;
+      }
+      .navbar-toggle .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+      }
+      .navbar-toggle .middle-bar {
+        opacity: 0;
+      }
+      .navbar-toggle .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+      }
+      .navbar-toggle.collapsed .top-bar {
+        transform: rotate(0);
+      }
+      .navbar-toggle.collapsed .middle-bar {
+        opacity: 1;
+      }
+      .navbar-toggle.collapsed .bottom-bar {
+        transform: rotate(0);
+      }
+    
+    
+      .fixedHeader{
+        display: inline-block;
+      }
+    /* header  END*/
+  
+    .nav-link{
+      font-size: 14px;
+      margin-left: 5em;
+    }
+    
+    
+    .walkersLogo{
+      width: 6.5rem;
+      height: 4rem;
+      border-radius: 60%;
+    }
+  
+  
+    .leftPadding{
+      float: left;
+      padding: 10px 0px 0px 0px;
+    }
+    
+    input[type=checkbox] {
+      width: 9mm;
+      /* -webkit-appearance: button; */
+      height: 5mm;
+      border: 0.7mm solid black;
+    }
+    
+    .logIn{
+      color: white;
+      font-size: 15px;
+      float: right;
+      padding: 3px 20px 0 0;
+    }
+    
+  
+    .toggle{
+      display: block;
+    }
+    .logInAlign{
+      float: right;
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
+  
+    .elementAlign{
+      height: 160px;
+      background:rgb(213, 0, 0);
+    }
+  
+    .adjustHeader{
+      font-size: 1.5rem;
+    }
+  
+    ul{
+      width: 90%;
+      display: none;
+    }
+  
+    ul li{
+      display: block;
+      text-align: center;
+    }
+  
+    .active{
+      display: block;
+    }
+ 
+    .navbar-default {
+      background-color: red;
+      border-color: green;
+   }
+
+
+  }
+
+  
+  

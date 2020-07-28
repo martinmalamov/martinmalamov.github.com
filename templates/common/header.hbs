@@ -1,0 +1,65 @@
+
+     <nav class="navbar  navbar-expand-sm adjustPicture">
+      <div class="container-fluid  p-1 mb-2  text-white  ">
+        <button type="button" class="navbar-toggle  collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="navbar-toggler-icon "></span>
+
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+
+        </button>
+      
+        <div class="ml-auto  text-white">
+          <a href="/#/login"><span class="hideElement" >Log In<i class="glyphicon glyphicon-user"></i></span></a>
+          <a href="/#/register"><span class="hideElement" >Register<i class="far fa-id-card"></i></span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active ">
+              <a class="nav-link" href="#"><i class="glyphicon glyphicon-home"></i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../Prizes/prizes.html">Prizes</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/#/gallery">Gallery</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link termsShow" href="#">Prices</a>
+            </li>
+            <li class="nav-item active ">
+              <a class="nav-link " href="#">Contact</a>
+            </li>
+            <li class="nav-item active ">
+              <a class="nav-link termsHide" href="#">PRIVACY</a>
+            </li>
+          </ul>
+
+        </div>
+        <span class=".d-none .d-sm-block .d-md-none ml-auto  hideSecondLogIn">
+          <a class="logInHeader" href="/#/login" >Log In<i class="far fa-user"></i></span></a>
+          <span class=".d-none .d-sm-block .d-md-none ml-auto  hideSecondLogIn">
+          <a class="logInHeader" href="/#/register" >Register<i class="far fa-id-card"></i></span></a>
+
+      </div>
+    </nav>
+    {{!-- <div class="jumbotron">
+        <h1>Team Manager</h1>
+        {{#if loggedIn}}
+        <span>Welcome, {{username}}</span>
+        {{/if}}
+        <nav>
+            <a href="#/home" class="btn btn-default">Home</a>
+            <a href="#/about" class="btn btn-default">Prizes</a>
+            {{#if loggedIn}}
+            <a href="#/catalog" class="btn btn-default">Gallery</a>
+            <a href="#/logout" class="btn btn-default">Prices</a>
+            {{else}}
+            <a href="#/login" class="btn btn-default">Contact</a>
+            <a href="#/register" class="btn btn-default">Register</a>
+            {{/if}}
+        </nav>
+    </div> --}}

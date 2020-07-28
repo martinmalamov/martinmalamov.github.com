@@ -3,146 +3,54 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="JS-module/functions.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  <!-- <link href="login.html" rel="stylesheet" type="text/html">  -->
   <title>MyProject</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="HeaderCSS3_style/headerStyle.css" type="text/css">
+  <link rel="stylesheet" href="HeaderCSS3_style/footerStyle.css" type="text/css">
+  <link rel="stylesheet" href="templates/user/styleLogin.css" type="text/css">
+  <link rel="stylesheet" href="templates/user/styleRegister.css" type="text/css">
+  <link rel="stylesheet" href="templates/home/home.css" type="text/css">
+  <link rel="Stylesheet" href="templates/gallery/gallery.css" type="text/css">
+
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="./node_modules/handlebars/dist/handlebars.min.js"></script>
+  <script src="./node_modules/sammy/lib/min/sammy-0.7.6.min.js"></script>
+  <script src="./node_modules/sammy/lib/min/plugins/sammy.handlebars-0.7.6.min.js"></script>
+
+
+  <!--       
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 
+  <script src="./node_modules/handlebars/dist/handlebars.min.js"></script>
+  <script src="./node_modules/sammy/lib/min/sammy-0.7.6.min.js"></script>
+  <script src="./node_modules/sammy/lib/min/plugins/sammy.handlebars-0.7.6.min.js"></script> -->
+
+  <script type="module" src="./scripts/app.js"></script>
+
+
 </head>
 
 <body>
-  <header>
-    <div>
-      <ul class="header">
-        <div class="leftAlign">
-          <nav>
-            <a href="index.html"><img src="images/logo.png" /></a>
-          </nav>
-        </div>
-        <li class="adjustLogin"><a class="active" href="Login-page/login.html">Login</a></li>
-        <li><a href="Register-page/register.html">Register</a></li>
-        <li><a href="Contact/contact.html">Contact</a></li>
-        <li><a href="Prices/price.html">Prices</a></li>
-        <li><a href="Gallery/gallery.html">Gallery</a></li>
-        <li class="underline"><a class="active" href="index.html">Home</a></li>
-        <li><a class="active" href="Prizes-Responsive/index.html">PRIZES</a></li>
-        <li><a class="active" href="Prizes/prizes.html">PRIZES-mobile</a></li>
-        <!-- search button -->
-        <li>
-          <!-- Load icon library -->
-          <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-          <!-- The form -->
-          <form class="example" action="action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-        </li>
-      </ul>
-    </div>
-  </header>
-
-  <!-- <div class="w3-content w3-display-container" > -->
-  <div class="imageAdjust">
-    <img class="mySlides" src="images/hotel1.png">
-    <img class="mySlides" src="images/hotel2.png">
-    <img class="mySlides" src="images/hotel3.png">
-    <img class="mySlides" src="images/hotel4.png">
-    <div class="w3-center w3-display-bottommiddle">
-      <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-      <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
-      <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
-    </div>
+  <div id="container">
 
   </div>
 
-  <div class="hotelRewards">
-    <div class="hotelBorder1">
-      <div class="punch-card">
-        <div class="night-icons">
-          <ol>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-            <a class="night-icon empty"></a>
-
-          </ol>
-        </div>
-
-        <div class="night-summary">
-          <div class="summary">
-            <span class="moon">
-              <!-- decimal unicode for  moon -->
-              <!-- &#9789; -->
-            </span>
-          </div>
-
-        </div>
 
 
-        <div class="cont-right">
-          <div class="message-box-cont" tabindex="0">
-            <div class="message-box">
-              <div class="messages">
-                <p class="main-message"><b>Collect 10 night get 1&nbsp;reward* night</b></p>
-                <p class="additional-message">No gimmicks, just rewards.</p>
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="row marketing-copy-section mb-dog">
-    <div class="col-12">
-      <p class="mh-mouse mh-bird--m mh-horse--l">
-        LuxuryResort.com is a leading online accommodation site.
-        We’re passionate about travel. Every day we inspire
-        and reach millions of travelers across 90 local
-        websites in 41 languages. So when it comes to
-        booking the perfect hotel, vacation rental,
-        resort, apartment, guest house or treehouse -
-        we’ve got you covered. With hundreds of thousands
-        of properties in over 200 countries and territories,
-        we provide incomparable choice with a Price Guarantee.
-        Our site is fun and simple to use and we offer
-        innovative online tools and a top rated mobile app.
-      </p>
-    </div>
-  </div>
-
-  <footer>
-    <div>
-      <table>
-        <ul class="footer">
-          <li><a href="AboutUs/aboutUs.html">About_us</a></li>
-          <!-- <li><a href="#about">Jobs</a></li>
-            <li><a href="#about">News</a></li> -->
-          <li class="copyRightAlign">&copy; Copyright Martin Malamov</a></li>
-        </ul>
-
-      </table>
-    </div>
-  </footer>
-
-  <script src="Index-JS/index.js"></script>
 </body>
 
 </html>
