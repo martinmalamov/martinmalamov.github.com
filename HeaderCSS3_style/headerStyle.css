@@ -12,6 +12,13 @@ body{
   padding: 0;
 }
 
+/* Grand hotel text fix width */
+div.row.marketing-copy-section.mb-dog {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* Grand hotel text fix width */
+
 div#slides.carousel.slide {
   padding-top: 0px;
 }
