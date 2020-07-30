@@ -1,285 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="price.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../HeaderCSS3_style/headerStyle.css" type="text/css">
+    <link rel="stylesheet" href="../HeaderCSS3_style/footerStyle.css" type="text/css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <title>Prices</title>
 </head>
+
 <body>
     <header>
-        <div>
-            <ul class="header">
-                <!-- <img class="leftAlign" src="../images/logo.png" ></img> -->
-                    <div class="leftAlign">
-                      <nav>
-                      <a href="../index.html"><img src="../images/logo.png" /></a>
-                      </nav>
-                    </div>
-               
-                    <li><a href="../Login-page/login.html">Login</a></li>
-                    <li><a href="../Register-page/register.html">Register</a></li>
-                    <li><a href="../Contact/contact.html">Contact</a></li>
-                    <li class="underline"><a href="../Prices/price.html">Prices</a></li>
-                    <li><a href="../Gallery/gallery.html">Gallery</a></li>
-                    <li><a href="../index.html">Home</a></li>
 
-                    <!-- search button -->
-            <li>
-                <!-- Load icon library -->
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-                <!-- The form -->
-                  <form class="example" action="action_page.php">
-                  <input type="text" placeholder="Search.." name="search">
-                  <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-              </li>
-            </ul>
-        </div>
-        </header>
+        <nav class="navbar  navbar-expand-sm adjustPicture">
+            <div class="container-fluid  p-1 mb-2  text-white  ">
+                <button type="button" class="navbar-toggle  collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="navbar-toggler-icon "></span>
 
-        <div class="container" style="background-color: #fff;">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+
+                </button>
+
+                <div class="ml-auto  text-white">
+                    <a href="../Login-page/login.html"><span class="hideElement">Log In<i
+                                class="glyphicon glyphicon-user"></i></span></a>
+                    <a href="../Register-page/register.html"><span class="hideElement">Register<i
+                                class="far fa-id-card"></i></span></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active ">
+                            <a class="nav-link" href="../index.html"><i class="glyphicon glyphicon-home"></i></a>
+                        </li>
+                        <!-- <li class="nav-item active">
+                  <a class="nav-link" href="../Prizes/prizes.html">Prizes</a>
+                </li> -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="..//Gallery/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link termsShow" href="../Prices/price.html">Prices</a>
+                        </li>
+                        <li class="nav-item active ">
+                            <a class="nav-link " href="../Contact/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active ">
+                            <a class="nav-link termsHide" href="#">PRIVACY</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <span class=".d-none .d-sm-block .d-md-none ml-auto  hideSecondLogIn">
+                    <a class="logInHeader" href="../Login-page/login.html">Log In<i class="far fa-user"></i></span></a>
+                <span class=".d-none .d-sm-block .d-md-none ml-auto  hideSecondLogIn">
+                    <a class="logInHeader" href="../Register-page/register.html">Register<i
+                            class="far fa-id-card"></i></span></a>
+
+            </div>
+        </nav>
+    </header>
+    <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+
+    <div class="container" style="background-color: #fff;">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Prices
+                </h1>
+                <!-- <ol class="breadcrumb">
+                    <li class="active">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="active">
                         Prices
-                    </h1>
-                    <ol class="breadcrumb">
-                        <li class="active">
-                            <a href="../index.html">Home</a>
-                        </li>
-                        <li class="active">
-                            Prices
-                        </li>
-                    </ol>
+                    </li>
+                </ol> -->
 
-                </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-7">
-                    <h4 style="margin-left:3px;margin-top: 0px; font-weight: bold;font-size: 17px;margin-bottom: 0px;">
-                        Prices:</h4>
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Type</th>
-                                                <th>Price</th>
-                                            </tr>
-                                        </thead>
-                                        
-                                        <tbody>
-                                            
-                                            <tr class="colorGrey">
-                                                <td>
-                                                    <i class="fa fa-dot-circle-o"> 
-                                                        <!-- <a>&#9737;</a> -->
-                                                    </i>
-                                                </td>
-                                                <td>Double room (2 beds)</td>
-                                                <td>36 BGN</td>
-                                            </tr>
-    
-                                            <tr>
-                                                <td>
-                                                    <i class="fa fa-dot-circle-o"> 
-                                                        <!-- <a>&#9737;</a> -->
-                                                    </i>
-                                                </td>
-                                                <td>Double room (Royal bedroom)</td>
-                                                <td>36 BGN</td>
-                                            </tr>
-    
-                                            <tr class="colorGrey">
-                                                <td>
-                                                    <i class="fa fa-dot-circle-o"> 
-                                                        <!-- <a>&#9737;</a> -->
-                                                    </i>
-                                                </td>
-                                                <td>Luxury double room (Royal bedroom)</td>
-                                                <td>45 BGN</td>
-                                            </tr>
-    
-                                            <tr>
-                                                <td>
-                                                    <i class="fa fa-dot-circle-o"> 
-                                                        <!-- <a>&#9737;</a> -->
-                                                    </i>
-                                                </td>
-                                                <td>Triple room (3 beds)</td>
-                                                <td>50 BGN</td>
-                                            </tr>
-    
-                                            <tr class="colorGrey">
-                                                <td>
-                                                    <i class="fa fa-dot-circle-o"> 
-                                                    <!-- <a>&#9737;</a> -->
-                                                    </i>
-                                                </td>
-                                                <td>Suites (Royal bedroom + Double room)</td>
-                                                <td>55 BGN</td>
-                                            </tr>
-    
-                                            <tr>
-                                                <td>
-                                                    <i class="fa fa-exclamation-circle text-denger"> 
-                                                        <!-- <a> &#9888;</a> -->
-                                                    </i>
-                                                </td>
-                                                <td colspan="2" class="text-danger">20% VAT included</td>
-                                            </tr>
-    
-                                        </tbody>
-                                    </table>
-                                </div>
-    
-                            </div>
-                        </div>
-                </div>  
-
-                <!-- second table -->
-                <div class="col-md-5">
-                    <h4 style="margin-top: 0px;font-weight: bold;font-size: 17px;">
-                    Hotel Luxury offers the following services:
-                    </h4>
-
-                    <div class="panel panel-default">
-                        <!-- /.panel heading -->
-                        <div class="panel-body">
-                            <!-- /.panel body -->
-                            <div class="table-responsive">
-                                <table class="table table-striped">
-                                    <tbody>
-                                        <tr class="colorGrey">
-                                            <td>
-                                                <i class="fa fa-check text-success">
-                                                    <!-- ::before -->
-                                                    <!-- html success symbol -->
-                                                    <!-- <span>&#10003;</span> -->
-                                                    
-                                                </i>
-                                            </td>
-                                            <td>
-                                                Wake-up calls
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <i class="fa fa-check text-success">
-                                                    <!-- ::before -->
-                                                    <!-- <span>&#10003;</span> -->
-                                                </i>
-                                            </td>
-                                            <td>
-                                                Room service
-                                            </td>
-                                        </tr>
-
-                                        <tr class="colorGrey">
-                                            <td>
-                                                <i class="fa fa-check text-success">
-                                                    <!-- ::before -->
-                                                    <!-- <span>&#10003;</span> -->
-                                                </i>
-                                            </td>
-                                            <td>
-                                                Dry cleaning
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <i class="fa fa-check text-success">
-                                                    <!-- ::before -->
-                                                    <!-- <span>&#10003;</span> -->
-                                                </i>
-                                            </td>
-                                            <td>
-                                                Taxis
-                                            </td>
-                                        </tr>
-
-                                        <tr class="colorGrey">
-                                            <td>
-                                                <i class="fa fa-check text-success">
-                                                    <!-- ::before -->
-                                                    <!-- <span>&#10003;</span> -->
-                                                </i>
-                                            </td>
-                                            <td>
-                                                Office service
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <i class="fa fa-check text-success">
-                                                    <!-- ::before -->
-                                                    <!-- <span>&#10003;</span> -->
-                                                </i>
-                                            </td>
-                                            <td>
-                                                Free WiFi Internet
-                                            </td>
-                                        </tr>
-
-                                        <tr class="colorGrey">
-                                            <td>
-                                                <i class="fa fa-check text-success">
-                                                    <!-- ::before -->
-                                                    <!-- <span>&#10003;</span> -->
-                                                </i>
-                                            </td>
-                                            <td>
-                                                Rooms with air conditioning
-                                            </td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                
-            </div>
-            
-            <!-- line before footer (/.row) -->
-            <hr>
-            <!-- Footer -->
-            <footer>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p>
-                          &copy;  Copyright reserved by Martin Malamov 
-                        </p>
-                    </div>
-                    
-                    <div class="col-lg-6 text-right">
-                        <p>
-                            "Created by "
-                            <!-- new blank page -->
-                            <a href="../index.html" target="_blank" title="LuxuryResort.com - Онлайнн
-                            поръчки на интернет маркетингови услуги. ">
-                            Martin Malamov
-                            </a>
-                        </p>
-                    </div>
-    
-                </div>
-    
-            </footer>
-
-            
         </div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <h4 style="margin-left:3px;margin-top: 0px; font-weight: bold;font-size: 17px;margin-bottom: 0px;">
+                    Rooms:</h4>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Type</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+                                    <tr class="colorGrey">
+                                        <td>
+                                            <i class="fa fa-bed">
+                                            </i>
+                                        </td>
+                                        <td>Double room (2 beds)</td>
+                                        <td>36 BGN</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-bed">
+                                            </i>
+                                        </td>
+                                        <td>Double room (Royal bedroom)</td>
+                                        <td>36 BGN</td>
+                                    </tr>
+
+                                    <tr class="colorGrey">
+                                        <td>
+                                            <i class="fa fa-bed">
+                                            </i>
+                                        </td>
+                                        <td>Luxury double room (Royal bedroom)</td>
+                                        <td>45 BGN</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-bed">
+                                            </i>
+                                        </td>
+                                        <td>Triple room (3 beds)</td>
+                                        <td>50 BGN</td>
+                                    </tr>
+
+                                    <tr class="colorGrey">
+                                        <td>
+                                            <i class="fa fa-bed">
+                                            </i>
+                                        </td>
+                                        <td>Suites (Royal bedroom + Double room)</td>
+                                        <td>55 BGN</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-exclamation-circle text-danger">
+                                            </i>
+                                        </td>
+                                        <td colspan="2" class="text-danger">20% VAT included</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- second table -->
+            <div class="col-md-5">
+                <h4 style="margin-top: 0px;font-weight: bold;font-size: 17px;">
+                    Grand hotel offers the following services:
+                </h4>
+
+                <div class="panel panel-default">
+                    <!-- /.panel heading -->
+                    <div class="panel-body">
+                        <!-- /.panel body -->
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr class="colorGrey">
+                                        <td>
+                                            <i class="fa fa-check text-success">
+                                           
+
+                                            </i>
+                                        </td>
+                                        <td>
+                                            Wake-up calls
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-check text-success">
+                                            </i>
+                                        </td>
+                                        <td>
+                                            Room service
+                                        </td>
+                                    </tr>
+
+                                    <tr class="colorGrey">
+                                        <td>
+                                            <i class="fa fa-check text-success">
+                                            </i>
+                                        </td>
+                                        <td>
+                                            Dry cleaning
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-check text-success">
+                                            </i>
+                                        </td>
+                                        <td>
+                                            Taxis
+                                        </td>
+                                    </tr>
+
+                                    <tr class="colorGrey">
+                                        <td>
+                                            <i class="fa fa-check text-success">
+                                            </i>
+                                        </td>
+                                        <td>
+                                            Office service
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-check text-success">
+                                            </i>
+                                        </td>
+                                        <td>
+                                            Free WiFi Internet
+                                        </td>
+                                    </tr>
+
+                                    <tr class="colorGrey">
+                                        <td>
+                                            <i class="fa fa-check text-success">
+                                            </i>
+                                        </td>
+                                        <td>
+                                            Rooms with air conditioning
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- line before footer (/.row) -->
+        <hr>
+        <!-- Footer -->
+
+
+    </div>
+
+    <footer>
+        <div class="container-footer">
+            <div class="social">
+                <p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/martinmalamov" target="_blank"><i class="fab fa-github"></i></a>
+                </p>
+            </div>
+
+            <div class="footerTerms">
+                <p><b><a href="#" target="_blank">Terms and conditions
+                            <p>Privacy</p>
+                        </a></b></p>
+            </div>
+
+            <div class="copyRight">
+                <p>&copy;Copyright reserved by Martin Malamov</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>

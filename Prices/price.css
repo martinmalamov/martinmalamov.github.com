@@ -2,10 +2,11 @@ body{
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: 1000rem;
-    min-width: 1000px;
+    /* min-width: 1000px; */
 }
 
-ul.header {
+
+/* ul.header {
     list-style-type: none;
     margin: -20px;
     height: 110px;
@@ -20,7 +21,7 @@ ul.header {
     float: right;
     font-size: 19px;
     
-  }
+  } */
 
   li a {
     display: block;
@@ -45,10 +46,16 @@ ul.header {
     float:left;
 }
 
+div.container-footer {
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
 .container {
     /* width: 970px; */
     width: 80%;
-    height: 600px;
+    height: 100%;
+    /* height: 600px; */
 }
 .container {
     /* here or at bottom of the header */
@@ -177,12 +184,7 @@ li {
     box-sizing: border-box;
 }
 
-.active{
-    padding: 0px 30px; 
-    padding-left: 15px;
-    padding-right: 37px;
 
-}
 
 .breadcrumb  li a {
     color: orange;
@@ -364,9 +366,9 @@ hr {
 }
 
 /* footer */
-footer{
-    margin:50px 0;
-}
+/* footer{
+    position: relative;
+} */
 
 .row {
     margin-left: -15px;
