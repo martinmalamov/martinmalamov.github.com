@@ -30,16 +30,16 @@
     border: 1px solid #563d7c;
   }
   
-  .jumbotron {
+  /* .jumbotron {
     padding: 1rem;
     border-radius: 0;
   }
   
   .padding{
     padding-bottom: 2rem;
-  }
+  } */
   
-  .welcome{
+  /* .welcome{
     width: 75%;
     margin:  0 auto;
     padding-top: 2rem;
@@ -49,7 +49,7 @@
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
-  }
+  } */
 
  /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -78,6 +78,93 @@
  /* separte points */
 
  
+ 
+  .hotelRewards {
+    position: relative;
+    overflow: hidden;
+    margin-left: 10%;
+    width: 80%;
+    height: 120px;
+    background-color: purple;
+    margin: 30px;
+  }
+
+  .hotelBorder1 {
+    overflow: hidden;
+    position: relative;
+  }
+  .punch-card {
+    display: flex;
+  }
+
+  div.hr-curve {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  div.cont-bd {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .cont-left {
+    display: block;
+  }
+
+  .loyalty-card {
+    border: 0;
+    display: inline-block;
+    background-color: #faedfc;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    width: 282px;
+  }
+
+  .punch-card {
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 282px;
+  }
+
+  .punch-card .night-icons {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: -8px;
+    width: 200px;
+  }
+
+  svg {
+    float: left;
+    display: block;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+  }
+
+  .cont-bd .cont-right {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+  }
+  div {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+  }
+
 
 
   @media (max-width: 576px) {
